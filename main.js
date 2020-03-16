@@ -84,7 +84,7 @@ document.onclick=function(){exec("xpmenu_hide()")}
 if(/\b(([123A-Z]\w\w[ON]?)|(about)|(bkinfo))\.htm$/.test(location.pathname))
 document.write(
 "<style>b,i,p,q,s,em,h1,h2,h3,h4,h5,h6,tt,big,del,dfn,kbd,ins,sub,sup,var,"
-+"cite,code,samp,abbr,body{font-family:arial}"
++"cite,code,samp,abbr,body{font-family:times}"
 +"/* Darken anchor.  */"
 +".o,a.o:hover,a.o:visited{color:black}"
 +"/* Gray box.  */"
