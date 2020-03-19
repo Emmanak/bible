@@ -35,6 +35,10 @@ body {
 
 }
 
+.permission_text {
+	color: red;
+}
+
 div.horizontal {
 	display: flex;
 	justify-content: center;
@@ -66,11 +70,13 @@ div.vertical {
 </style>
 
 <body>
-
-	<div id="loginbox" class="lightbox" >
+	
+	<div id="loginbox" class="lightbox">
 		<div class="horizontal">
 			<div class="vertical">
+
 				<div class="box">
+					<div class="permission_text">Express PERMISSION is REQUIRED for access to this site. Please contact owner for access.</div><br />
 					<input style="margin: 16px; text-align: center;" id="password" type="password" placeholder="password" /> <br />
 					<button id="loginbutton" type="button">Enter</button>
 					<p id="wrongPassword" style="display: none">wrong password</p>
@@ -84,49 +90,49 @@ div.vertical {
 	<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
 
 
-	 <script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
+	<script type="text/javascript" src="https://rawcdn.githack.com/chrisveness/crypto/7067ee62f18c76dd4a9d372a00e647205460b62b/sha1.js"></script>
 
 	<script type="text/javascript">
-	"use strict";
+		"use strict";
 
 
-	function loadPage(pwd) {
+		function loadPage(pwd) {
 
-		var hash= pwd;
-		hash= Sha1.hash(pwd);
-		var url= hash + "/index.html";
+			var hash = pwd;
+			hash = Sha1.hash(pwd);
+			var url = hash + "/index.html";
 
-		$.ajax({
-			url : url,
-			dataType : "html",
-			success : function(data) {
+			$.ajax({
+				url: url,
+				dataType: "html",
+				success: function (data) {
 
-				window.location= url;
+					window.location = url;
 
-			},
-			error : function(xhr, ajaxOptions, thrownError) {
+				},
+				error: function (xhr, ajaxOptions, thrownError) {
 
 
-				parent.location.hash= hash;
+					parent.location.hash = hash;
 
-				//$("#wrongPassword").show();
-				$("#password").attr("placeholder","wrong password");
-				$("#password").val("");
+					//$("#wrongPassword").show();
+					$("#password").attr("placeholder", "wrong password");
+					$("#password").val("");
+				}
+			});
+		}
+
+
+		$("#loginbutton").on("click", function () {
+			loadPage($("#password").val());
+		});
+		$("#password").keypress(function (e) {
+			if (e.which == 13) {
+
+				loadPage($("#password").val());
 			}
 		});
-	}
-
-
-	$("#loginbutton").on("click", function() {
-		loadPage($("#password").val());
-	});
-	$("#password").keypress(function(e) {
-		if (e.which == 13) {
-
-			loadPage($("#password").val());
-		}
-	});
-	$("#password").focus();
+		$("#password").focus();
 
 	</script>
 
