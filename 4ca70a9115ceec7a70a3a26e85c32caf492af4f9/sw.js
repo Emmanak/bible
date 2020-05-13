@@ -1,5 +1,5 @@
-const staticCacheName = 'site-content';
-const dynamicCacheName = 'site-dynamic';
+const staticCacheName = 'site-static-content';
+const dynamicCacheName = 'site-dynamic-content';
 const assets = [
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/index.html',
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/frames.htm',
