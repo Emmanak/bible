@@ -1,7 +1,7 @@
 // main.js: javascript stuff for pages in the `main' frame.
 
 if('serviceWorker' in navigator){
-  navigator.serviceWorker.register('/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/sw.js')
+  navigator.serviceWorker.register('https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/sw.js')
     .then(reg => console.log('service worker registered', reg))
     .catch(err => console.log('service worker not registered', err));
 }
