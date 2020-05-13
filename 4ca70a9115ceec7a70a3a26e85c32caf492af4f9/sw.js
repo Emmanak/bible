@@ -22,6 +22,9 @@ const assets = [
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/goverse.js',
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/blank4x4.png',
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/a.css',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/main.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/sw.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/manifest.json'
 
 
 
