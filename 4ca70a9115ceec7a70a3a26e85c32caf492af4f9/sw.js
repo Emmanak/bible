@@ -1,7 +1,7 @@
 const staticCacheName = 'site-content';
 const assets = [
     
-  '/1Ch.htm',
+  'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/1Ch.htm',/*
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/1ChN.htm',
 '/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/1ChO.htm',
 '/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/1Co.htm',
@@ -1387,7 +1387,7 @@ const assets = [
 '/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-72x72.png',
 '/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-96x96.png',
 
-
+*/
 ];
 
 // install event
