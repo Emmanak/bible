@@ -1,4 +1,5 @@
 const staticCacheName = 'site-content';
+const dynamicCacheName = 'site-dynamic';
 const assets = [
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/index.html',
 'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/frames.htm',
@@ -50,6 +51,15 @@ self.addEventListener('install', evt => {
 // activate event
 self.addEventListener('activate', evt => {
   //console.log('service worker activated');
+  evt.waitUntil(
+    caches.keys().then(keys => {
+      //console.log(keys);
+      return Promise.all(keys
+        .filter(key => key !== staticCacheName)
+        .map(key => caches.delete(key))
+      );
+    })
+  );
 });
 
 // fetch event
