@@ -1,7 +1,30 @@
 const staticCacheName = 'site-content';
 const assets = [
-'/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/index.html',
-'/frames.htm',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/index.html',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/frames.htm',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-128x128.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-144x144.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-152x152.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-192x192.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-384x384.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-512x512.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-72x72.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/icons/icon-96x96.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/b.css',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/std.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/xpmenu.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/formretain.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/vdata.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/quicklinks.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/idata.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/isearch.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/listv.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/goverse.js',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/blank4x4.png',
+'https://emmanak.github.io/bible/4ca70a9115ceec7a70a3a26e85c32caf492af4f9/a.css',
+
+
+
 
 
 ];
