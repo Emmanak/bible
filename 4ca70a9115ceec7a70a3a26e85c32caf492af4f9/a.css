@@ -54,3 +54,16 @@ pre{display:block;text-align:center;font-size:120%;margin-top:16px;margin-bottom
 small{display:block;border-top:1px solid #ccccdd;padding-top:5px;text-align:center;color:#555555;margin-top:10px;margin-bottom:80%;}
 /* Center-aligned text: Psalm inserted text.  */
 span{display:block;text-align:center;margin-top:5px;margin-bottom:3px;}
+/*Navbar for back and forard buttons*/
+/* The navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0;
+  
+  width: 95%; /* Full width */
+  opacity: 0.7;
+}
