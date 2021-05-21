@@ -5,6 +5,24 @@ if('serviceWorker' in navigator){
     .then(reg => console.log('service worker registered', reg))
     .catch(err => console.log('service worker not registered', err));
 }
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  if (prevScrollpos > window.pageYOffset) {
+    document.getElementById("navbar").style.opacity = "0.8";
+      console.log(document.getElementById("navbar").style.opacity);
+  }
+  else {
+    document.getElementById("navbar").style.opacity = "0.3";
+      console.log(document.getElementById("navbar").style.opacity);
+  }
+  prevScrollpos = window.pageYOffset;
+}
+function goBack() {
+  window.history.back();
+}
+function goForward() {
+  window.history.forward();
+}
 
 ////////////////////////////////////////////////////////////////////
 // Standard exception handler.

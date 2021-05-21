@@ -63,7 +63,7 @@ span{display:block;text-align:center;margin-top:5px;margin-bottom:3px;}
   overflow: hidden;
   position: fixed; /* Set the navbar to fixed position */
   bottom: 0;
-  
+  opacity: 0.8;
   width: 95%; /* Full width */
-  opacity: 0.7;
+  transition: opacity 0.3s;
 }
