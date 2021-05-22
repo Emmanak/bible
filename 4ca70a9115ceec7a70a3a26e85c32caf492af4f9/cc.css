@@ -9,3 +9,16 @@ h2{text-align:justify;border-top:1px solid #777792;}
 h5{padding-top:10px;border-top:1px solid #777792;}
 p{margin:0px;text-indent:-16px;margin-left:16px;text-align:justify;border:none;}
 a.q{font-weight:bold;color:#777777;}
+/*Navbar for back and forard buttons*/
+/* The navigation bar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  bottom: 0;
+  opacity: 0.8;
+  width: 95%; /* Full width */
+  transition: opacity 0.3s;
+}
